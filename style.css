@@ -1,0 +1,2231 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-primary-color: #e00;
+  --main-secondary-color: #000;
+  --padding-primary-main: 10px 24px;
+  --main-white-color: #f9f9f9;
+  /* --display-font: "Red Hat Display", sans-serif; */
+  /* --text-font: "Red Hat Text", sans-serif; */
+}
+
+.text img {
+  width: 80px;
+}
+
+.awards_Main {
+  height: 100%;
+  width: 100%;
+  padding: 64px 69px 96px 91px;
+}
+
+.awards_Twomain {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.awards_One {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+
+.awards_Two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+}
+
+#frist_Image {
+  display: none;
+}
+
+.awards_Image {
+  width: 100%;
+  height: 100%;
+}
+
+.text_Aone {
+  color: #151515;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.text_One h6 {
+  color: #f2f2f2;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.text_Atwo {
+  color: #151515;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.text_Three {
+  color: #212427;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text_Four {
+  color: #212427;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.m-4 {
+  margin: 0rem !important;
+}
+
+.main_footer {
+  width: 100%;
+  height: 100%;
+
+  background: #151515;
+}
+
+#icon_contact {
+  cursor: pointer;
+}
+
+#myNumberss {
+  cursor: pointer;
+}
+
+.footer_main {
+  display: flex;
+  justify-content: space;
+  justify-content: space-between;
+  padding: 64px 80px;
+}
+
+.footer_One {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  width: 397px;
+}
+
+.text_One {
+  width: 100% !important;
+  color: #f2f2f2;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.text_One h6 {
+  width: 100%;
+}
+
+.logo_Redhat {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer_logo {
+  width: 135px;
+  height: 32px;
+}
+
+.logo_line {
+  width: 1px;
+  height: 37px;
+  background: #f2f2f2;
+}
+
+.text_Two {
+  width: 301px;
+  gap: 16px;
+}
+
+.text_Two h6 {
+  color: #f9f9f9;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.text_Two p {
+  width: 100%;
+  height: 104px;
+  color: #f2f2f2;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.text_Three {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.text_Three h6 {
+  color: #f9f9f9;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.footer_Contact {
+  color: #f9f9f9;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_Contact i {
+  width: 24px;
+  height: 24px;
+}
+
+.footer_Call {
+  color: #f9f9f9;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_Call i {
+  width: 24px;
+  height: 24px;
+}
+
+.footer_Link {
+  padding-top: 150px;
+  padding-bottom: 56px;
+  padding-right: 80px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer_Link a {
+  color: #f9f9f9 !important;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+
+#icon_contact,
+#myNumberss {
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  gap: 8px;
+
+}
+
+.offcanvas-header {
+  padding: 10px 1rem !important;
+}
+
+.foot_icon {
+  font-size: 24px;
+}
+
+.footer_Text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f2f2f2;
+  padding: 13px 0px 18px 0px;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer_Text a {
+  color: #f2f2f2;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+
+.footer_Line {
+  width: 100%;
+  border-top: 0.5px solid #d0d0d0;
+  background: #151515;
+}
+
+.p-4 {
+  padding: 0rem !important;
+}
+
+.max-w-screen-xl {
+  max-width: 100%;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.hilne {
+  width: 1px;
+  height: 37px;
+  background: #f2f2f2;
+}
+
+.main {
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 20px 80px;
+  background: rgba(21, 21, 21, 0.96);
+}
+
+.hat img {
+  width: 135px;
+  height: 35px;
+}
+
+.text img {
+  width: 84px;
+  height: 35px;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav_h {
+  display: flex;
+  align-items: center;
+}
+
+.nav_text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+button {
+  height: 40px;
+  border-radius: 4px !important;
+  display: inline-flex;
+  padding: var(--padding-primary-main);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--main-white-color);
+  font-family: var(--display-font);
+  font-size: 16px;
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  background: var(--main-primary-color) !important;
+}
+
+.button {
+  height: 40px;
+  border-radius: 4px !important;
+  display: inline-flex;
+  padding: var(--padding-primary-main);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--main-white-color);
+  font-family: var(--display-font);
+  font-size: 16px;
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  background: var(--main-secondary-color) !important;
+}
+
+.submit {
+  background: var(--main-secondary-color) !important;
+  width: 141px !important;
+}
+
+.nav_icon {
+  font-size: 18px;
+  color: var(--main-white-color);
+}
+
+.nav_phone h4 {
+  color: #f9f9f9;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+/* ================================main_page start===================================== */
+.main_page {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.what {
+  right: 0px;
+  top: 35%;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.what_two {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.what_two {
+  display: none;
+}
+
+.what_ico {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 0px 0px 8px;
+  background: #138633;
+}
+
+.what_ico a {
+  text-decoration: none;
+}
+
+.what_ico .what_icons_one,
+.what_icons_two {
+  font-size: 32px;
+  color: #fff;
+}
+
+.what_ico_two {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px 0px 0px 8px;
+  background: #034d83;
+}
+
+.one_one {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.one_one_one {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.one_one_one h1 {
+  color: #fff;
+  font-family: var(--display-font);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.main_one,
+.main_two {
+  width: 100%;
+}
+
+.one_one_one p {
+  height: 100%;
+  color: #f2f2f2;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.main_page {
+  width: 100%;
+  height: 100%;
+  padding: 117px 78px;
+  background: var(--main-secondary-color);
+  background-image: url(./images/barfee-ke-ps.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.main_two img {
+  width: 100%;
+  height: 100%;
+}
+
+.one {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.one_two_one h6 {
+  color: #fff;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.one_two {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.one_two_two {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.one_two_two_one,
+.one_two_two_two {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  /* width: 100%; */
+}
+
+#last_icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* .one_two_icon {
+  width: 100%;
+} */
+
+/* ================================main_page end===================================== */
+/* ================================what_page start===================================== */
+.What_start_main {
+  padding: 64px 80px;
+}
+
+.what_start {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 141px;
+}
+
+.what_text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.what_main_one {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.what_main_one a {
+  color: var(--main-primary-color);
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  /* 155.556% */
+}
+
+.what_text h1 {
+  color: #151515;
+  font-family: var(--display-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.what_text p {
+  color: #212427;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.vedio {
+  width: 100%;
+  height: 100%;
+}
+
+.what_main_one a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* ================================what_page end===================================== */
+/* ================================manege start===================================== */
+.manage_start {
+  width: 100%;
+  height: 725px;
+  padding: 151px 80px;
+  background: #dfe7ee;
+}
+
+.manege_text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.manege_text h6 {
+  color: #151515;
+  font-family: var(--display-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.manege_text h2 {
+  color: #151515;
+  font-family: var(--display-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.manege_text p {
+  color: #212427;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.manage_one_one {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.manege_section_main {
+  display: flex;
+  flex-direction: column;
+  gap: 84px;
+}
+
+.manege_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  width: 100%;
+}
+
+.manage_two {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.rating {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 27px;
+}
+
+.rating_one {
+  background: #fff;
+  padding: 32px;
+}
+
+.manage_two_one {
+  padding: 46px 56px;
+  border-radius: 8px;
+  background: #f2f2f2;
+}
+
+.manage_next {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.manage_next h1 {
+  color: var(--main-primary-color);
+  font-family: var(--display-font);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.manage_next p {
+  color: #000;
+  font-family: var(--display-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.manage_two_one {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.manage_two_one a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  text-decoration: none;
+  color: #06c;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+/* ==============================Fortune start======================================= */
+.Fortune {
+  width: 100%;
+  height: 100%;
+}
+
+.Fortune_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 84px;
+}
+
+.Fortune_text_one_main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Fortune_text_one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Fortune_text_one h6 {
+  color: #151515;
+  text-align: center;
+  font-family: var(--display-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.Fortune_text_one h2 {
+  color: #151515;
+  text-align: center;
+  font-family: var(--display-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.fortune_Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client_Iconmain {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.client_icons_startone {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 128px;
+}
+
+.client_icon_one {
+  width: 100%;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.client_icon_one p {
+  color: #586067;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.image img {
+  width: 63.92px;
+  height: 64px;
+}
+
+.price h2 {
+  color: #151515;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.client_icons_start {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.Fortune_start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 290px 128px 330px;
+}
+
+/* ==============================Fortune end======================================= */
+
+/* ==============================Fortune end======================================= */
+
+.popup-container {
+  padding: 24px 32px !important;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  border-radius: 4px;
+}
+
+/* Styles for the overlay background */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 900;
+}
+
+#pop_Upbutton {
+  height: 0px !important;
+  border-radius: 4px !important;
+  display: inline-flex;
+  padding: 0px !important;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: var(--main-white-color);
+  font-family: var(--display-font);
+  font-size: 16px;
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 20px;
+  border: none;
+  background: #034d83 !important;
+}
+
+.input_three h1 {
+  color: #1e1e1e;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.title_form h3 {
+  color: #1e1e1e;
+  font-family: var(--display-font);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.title_form p {
+  color: #010314;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.title_formmain {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.popup_sub_btn {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.popup_sub_btn button {
+  display: flex;
+  padding: 10px 44px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: #1e1e1e !important;
+}
+
+.pp {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* ==============================Fortune end======================================= */
+
+/* ==============================Fortune end======================================= */
+
+/* ================================form start===================================== */
+.offcanvas-end {
+  width: 601px !important;
+  height: 100% !important;
+  padding: 6px 25px;
+}
+
+.offcanvas-body {
+  flex-grow: 1;
+  padding: 0rem 1rem !important;
+  overflow-y: auto;
+}
+
+.textarea_copy {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#charCount {
+  color: #a0a2ac;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 133.333% */
+  letter-spacing: -0.48px;
+}
+
+label {
+  color: #1e1e1e;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  width: 100%;
+}
+
+.btn-close {
+  background-color: none !important;
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.btn-close:focus {
+  --tw-ring-color: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.close_Button {
+  font-size: 24px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0rem !important;
+}
+
+input {
+  display: flex;
+  width: 100%;
+  padding: 8px 32px 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px !important;
+  height: 34px;
+  border: 1px solid #dfe7ee !important;
+  font-family: "Red Hat Text", sans-serif !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+label textarea {
+  display: flex;
+  width: 100%;
+  height: 104px;
+  resize: none;
+  padding: 8px 32px 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid #dfe7ee;
+}
+
+input:focus,
+F textarea:focus {
+  border-radius: 4px !important;
+  border: 1px solid #dfe7ee !important;
+  --tw-ring-color: none !important;
+  outline: none;
+}
+
+.form_main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input_field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form_submit {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 440px;
+}
+
+.first_inpop {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+}
+
+.footer_Text {
+  padding: 13px 80px 18px 80px;
+}
+
+/* ================================form end===================================== */
+/* =======================px=========calculato start===================================== */
+.main_color_div {
+  display: flex;
+  padding: 150px 222px;
+  width: 100%;
+  height: 468px;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 100%;
+  display: flex;
+  padding: 44px 56px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 196px; */
+  border-radius: 8px;
+  background: #000;
+}
+
+.calcy_main {
+  display: flex;
+  align-items: center;
+}
+
+.calcy_main_one {
+  width: 100%;
+}
+
+.calcy_main_two {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.calcy_main_one h1 {
+  color: #fff;
+  font-family: var(--display-font);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.calcy_main_one p {
+  color: #f2f2f2;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* ================================calculato end===================================== */
+/* ================================cloud start===================================== */
+.Cloud {
+  width: 100%;
+  padding: 0px 0px 0px 80px;
+}
+
+.Cloud_main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 858px;
+  height: 223px;
+}
+
+.Cloud_main h1 {
+  color: #151515;
+  font-family: var(--display-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.Cloud_main p {
+  color: #212427;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.main_color_div {
+  padding: 54px 80px;
+}
+
+.cloud_an {
+  color: #e00;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  gap: 4px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================================cloud end===================================== */
+/* ================================open start===================================== */
+.openshift_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 131px;
+}
+
+.openshift_main_one,
+.openshift_main_two {
+  width: 100%;
+}
+
+.openshift_main_one img {
+  width: 100%;
+  height: 100%;
+}
+
+.openshift_main_two {
+  flex-direction: column;
+  display: flex;
+  gap: 24px;
+}
+
+.open_text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.open_text h1 {
+  color: #151515;
+  font-family: var(--display-font);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+}
+
+.open_text p {
+  color: #212427;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.openshift {
+  display: inline-flex;
+  padding: 0px 190px 48px 189px;
+  justify-content: center;
+  align-items: center;
+}
+
+.open_btn {
+  color: #e00;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  gap: 4px;
+  text-decoration: none;
+}
+
+/* ================================open end===================================== */
+
+/* =============================deve ======================================== */
+.developers {
+  width: 100%;
+  height: 100%;
+  background: #f8f8f8;
+  padding: 64px 189px;
+}
+
+.deve_one img {
+  width: 100%;
+  height: 100%;
+}
+
+.developers_one {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.deve_two {
+  padding-left: 20px;
+  width: 550px;
+  height: 100%;
+}
+
+.deve_two {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-bottom: 10px;
+}
+
+.deve_text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.deve_text h2 {
+  color: #151515;
+  font-family: var(--display-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+
+.deve_text p {
+  color: #212427;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* ==============================deve ======================================= */
+/* ===========================tab========================================== */
+.tabs {
+  padding: 70px 0px;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tablinks {
+  border: none;
+  background: #f8f8f8 !important;
+  color: black;
+}
+
+.one_tab {
+  width: 100%;
+  height: 100%;
+  padding: 94px 0px 0px 0px;
+}
+
+.tab_line {
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+}
+
+.tab_one_one {
+  display: flex;
+  gap: 80px;
+}
+
+.tab_card_one,
+.tab_card_two {
+  width: 100%;
+}
+
+.tab_card_two img {
+  width: 100%;
+}
+
+.tab_card_one {
+  color: #212427;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.tab button {
+  border-bottom: solid #fff;
+}
+
+.tab button:hover,
+.tab button:focus {
+  border-radius: 0px !important;
+  border-bottom: solid gray;
+}
+
+.tab button:hover,
+.tab button:focus {
+  border-radius: 0px !important;
+  border-bottom: solid red;
+}
+
+#tan_img_img_one {
+  display: none;
+}
+
+.calcy_main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* ===========================tab========================================== */
+/* ================================trustby_Main Start===================================== */
+.trustby_Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 447px;
+  width: 100%;
+  background: #000;
+}
+
+.trustby_One {
+  width: 470px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.trustby_Two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.trustby_Logo img {
+  width: 269px;
+  height: 63px;
+}
+
+.trustby_Line {
+  width: 1px;
+  height: 37px;
+  background: #f2f2f2;
+}
+
+.trustby_Valuepoint img {
+  width: 144px;
+  height: 63px;
+}
+
+.trustby_Three h2 {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: "Red Hat Text";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* ================================trustby_Main end===================================== */
+/* ===================================================================== */
+
+@media screen and (max-width: 1200px) {
+  .one_one_one p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .one_one_one h1 {
+    font-size: 44px;
+    line-height: 58px;
+  }
+
+  .main_page {
+    padding: 87px 38px;
+  }
+
+  .what_start {
+    gap: 70px;
+  }
+
+  .What_start_main {
+    padding: 64px 50px;
+  }
+
+  .rating {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 27px;
+  }
+
+  .manage_start {
+    height: 100%;
+    padding: 64px 80px;
+  }
+
+  .calculator {
+    padding: 44px 30px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  .openshift_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+  }
+
+  .openshift_main {
+    gap: 81px;
+  }
+
+  .openshift {
+    padding: 0px 80px 48px 80px;
+  }
+
+  .open_text h1 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .open_text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .deve_text {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .developers {
+    padding: 64px 129px;
+  }
+
+  .deve_text h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .deve_text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .deve_two {
+    gap: 14px;
+  }
+
+  .Fortune_start {
+    padding: 96px 87px 96px 165px;
+  }
+
+  .tab_card_one {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main_page {
+    display: block;
+    background-image: none;
+  }
+
+  .what_start {
+    display: block;
+  }
+
+  .main_page {
+    padding: 64px 80px;
+  }
+
+  .main_two {
+    padding-top: 32px;
+  }
+
+  .vedio {
+    padding-top: 40px;
+    width: 100%;
+    height: 400px;
+  }
+
+  .manage_start {
+    height: 100%;
+    padding: 64px 40px;
+  }
+
+  .manege_section {
+    display: block;
+    width: 100%;
+  }
+
+  .manage_two {
+    padding-top: 44px;
+  }
+
+  .rating {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 17px;
+    padding-top: 44px;
+  }
+
+  .manage_two_one {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .manege_section_main {
+    gap: 44px;
+  }
+
+  .Fortune_start {
+    padding: 64px 50px 64px 50px;
+  }
+
+  .client_icons_startone {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 100px;
+  }
+
+  .awards_One {
+    display: block;
+  }
+
+  #frist_Image {
+    display: flex;
+    justify-content: center;
+  }
+
+  #second_Image {
+    display: none;
+  }
+
+  .awards_Main {
+    padding: 44px 50px 44px 50px;
+  }
+
+  .footer_main {
+    display: block;
+  }
+
+  .footer_Link {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-right: 70px;
+  }
+
+  .awards_Image img {
+    height: auto;
+    width: 400px;
+  }
+
+  .footer_Text {
+    padding: 13px 50px 18px 50px;
+  }
+
+  .calcy_main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .calcy_main_two {
+    justify-content: flex-start;
+  }
+
+  .Cloud_main {
+    width: 100%;
+  }
+
+  .Cloud_main h1 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .Cloud_main p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .Cloud {
+    width: 100%;
+    padding: 0px 50px 0px 50px;
+  }
+
+  .openshift_main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .openshift_main_one img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .openshift_main_one,
+  .openshift_main_two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .openshift {
+    padding: 0px 50px 44px 50px;
+  }
+
+  .open_text {
+    gap: 0px;
+  }
+
+  .openshift_main_two {
+    gap: 14px;
+  }
+
+  .developers {
+    padding: 44px 50px;
+  }
+
+  .deve_text h2 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  .deve_text p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .deve_two {
+    gap: 12px;
+  }
+
+  .one_tab {
+    padding: 64px 0px 0px 0px;
+  }
+
+  .form_container {
+    gap: 16px;
+  }
+
+  .title_formmain {
+    gap: 12px;
+  }
+
+  .title_form h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .title_form p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .navbar {
+    padding: 20px 50px;
+  }
+
+  .main_page {
+    padding: 44px 50px;
+  }
+
+  .footer_main {
+    padding: 60px 60px;
+  }
+
+  .tab_one_one {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hat img {
+    width: 97px;
+    height: 30px;
+  }
+
+  .text img {
+    width: 60px;
+    height: 30px;
+  }
+
+  .logos {
+    gap: 8px;
+  }
+
+  button {
+    height: 35px;
+    font-size: 14px;
+    padding: 8px 20px !important;
+  }
+
+  .Fortune_start {
+    padding: 44px 50px 44px 50px;
+  }
+
+  .client_icon_one {
+    width: 100%;
+    height: 100%;
+  }
+
+  .client_icons_startone {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 0px;
+  }
+
+  .awards_One {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  #second_Image {
+    display: none;
+  }
+
+  .awards_Two {
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .awards_Image img {
+    height: auto;
+  }
+
+  .one_one_twos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .what_ico {
+    width: 44px;
+    height: 44px;
+  }
+
+  .what_ico_two {
+    width: 44px;
+    height: 44px;
+  }
+
+  .what {
+    gap: 16px;
+  }
+
+  .what_ico .what_icons_one,
+  .what_icons_two {
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .developers_one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    width: 100%;
+  }
+
+  .deve_two {
+    padding-left: 0px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tab_one_one {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  #tan_img_img_one {
+    display: block;
+  }
+
+  #tan_image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+    .popup-container {
+    padding: 24px 32px !important;
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    right: -12%;
+    transform: translate(-50%, -21%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 4px;
+  }
+  .one_two_two_two {
+    padding-top: 10px;
+  }
+
+  .main_page,
+  .What_start_main {
+    padding: 44px 30px;
+  }
+
+  .What_start_main {
+    padding: 64px 30px;
+  }
+
+  .one_two_two {
+    display: block;
+  }
+
+  .nav_text {
+    display: none;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .one_one_one h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .what_text h1 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .what_text p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .rating {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    text-align: center;
+  }
+
+  .manage_start {
+    padding: 64px 30px;
+  }
+
+  .manage_next p {
+    font-size: 15px;
+  }
+
+  .Fortune_start {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .Fortune {
+    padding: 24px 30px;
+  }
+
+  .Fortune_text_one h2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .client_icon_one {
+    width: 100%;
+    height: 100%;
+  }
+
+  .client_icons_startone {
+    gap: 10px;
+  }
+
+  .image img {
+    width: 32.92px;
+    height: 30px;
+  }
+
+  .client_icon_one {
+    gap: 8px;
+  }
+
+  .client_icon_one p {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .price h2 {
+    font-size: 25px;
+    line-height: 24px;
+  }
+
+  .footer_Text {
+    font-size: 13px;
+  }
+
+  .footer_One,
+  .text_Two {
+    width: 100%;
+  }
+
+  .footer_Link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+  }
+
+  .footer_main {
+    padding: 60px 45px;
+  }
+
+  .Fortune_text {
+    gap: 44px;
+  }
+
+  .footer_Text {
+    padding: 13px 30px 18px 30px;
+  }
+
+  .text_Atwo {
+    font-size: 25px;
+    line-height: 28px;
+  }
+
+  .text_Three {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .text_Four {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .awards_Image img {
+    height: auto;
+    width: 350px;
+  }
+
+  .awards_Main {
+    padding: 44px 30px 44px 30px;
+  }
+
+  .form_submit {
+    gap: 22px;
+  }
+
+  .form_main {
+    gap: 8px;
+  }
+
+  .main_color_div {
+    padding: 44px 30px;
+  }
+
+  .openshift {
+    padding: 0px 30px 44px 30px;
+  }
+
+  .openshift_main_one img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .developers {
+    padding: 44px 40px;
+  }
+
+  .one_tab {
+    padding: 44px 0px 0px 0px;
+  }
+
+  .tabs {
+    padding: 40px 0px;
+  }
+
+  /* ========================================= */
+  .trustby_One {
+    width: 100%;
+  }
+
+  .trustby_Main {
+    height: 100%;
+    width: 100%;
+    padding: 44px 30px;
+  }
+
+  .trustby_Valuepoint img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .trustby_Logo img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .what_ico,
+  .what_ico_two {
+    width: 30px;
+    height: 30px;
+  }
+
+  .what_ico .what_icons_one,
+  .what_icons_two {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  /* ========================================= */
+}
+
+@media screen and (max-width: 500px) {
+  button.tablinks {
+    font-size: 10px;
+    padding: 8px 10px !important;
+  }
+
+  .tab button {
+    border-bottom: solid #fff;
+  }
+
+  .tabs {
+    padding: 20px 0px;
+  }
+
+  .title_form h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .title_form p {
+    font-size: 10px;
+    line-height: 14px;
+  }
+
+  .input_three h1 {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  input {
+    height: 28px;
+  }
+
+  button {
+    height: 28px;
+    font-size: 12px;
+    padding: 8px 20px !important;
+  }
+
+  .ti {
+    display: inline-block !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  
+
+  .form_submit {
+    gap: 0px !important;
+    width: 100%;
+  }
+
+  .offcanvas-end {
+    padding: 6px 0px;
+  }
+}
